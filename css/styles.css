@@ -1,0 +1,176 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+
+.nav-bar{
+background-color: rgba(100,100,100, .5);
+height: 100px;
+width: 100%;
+position: fixed;
+z-index: 1;
+}
+
+.logo{
+width: 80px;
+height: 80px;
+margin: 10px 0px 0px 10px
+
+}
+
+.nav-list{
+float: right;
+
+}
+
+.list-item{
+float: left;
+margin-right: 25px;
+list-style-type: none;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.list-item a:hover{
+    color: rgb(255,0,0);
+}
+
+.volcano-bg{
+    background-image: url(../images/volcano.jpg);
+    background-size: 100%;
+    height: 840px;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+.volcano-bg-content{
+    height: 45px;
+    width: 500px;
+    background-color: rgba(100,100,100);
+    border: 3px solid rgb(255,255,255);
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    
+}
+
+h1{
+    color: rgb(255,255,255);
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 115px;
+
+    
+    
+}
+
+.content-img{
+    height: 500px;
+    width: 1000px;
+}
+
+.home-content{
+    height: 700px;
+    width: 100%;
+}
+
+.content-text{
+    margin: 0;
+    
+}
+
+.content-text, .content-img{
+    float: left;
+    height: 700px;
+    width: 42%;
+    border: solid 3px blue;
+    margin: 0 auto;
+    padding: 50px;
+    margin: 5px;
+}
+
+
+.footer-col{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+
+
+.submit{
+display: block;
+margin-top: 15px;
+}
+
+
+
+.social{
+display: block;
+margin-top: 15px;
+}
+
+
+
+.copy{
+display: block;
+}
+
+.fab{
+font-size: 2em;
+color: rgb(255,100,0)
+}
+
+/* end of index styles */
+
+.about-container{
+    height: 700px;
+    width: 100%;
+}
+
+.about-col{
+    height: 700px;
+    width: 30%;
+    border: 3px solid blue;
+    float: left;
+    margin-top: 100px;
+}
+
+.about-audio{
+    margin-top: 5px;
+}
+
+.about-video{
+    margin-top: 5px;
+}
+
+/* about end */
+
+/* contact start */
+
+.contact-container{
+    margin-top: 150px;
+    height: 800px;
+    width: 100%;
+}
+
+.contact-col{
+    height: 800px;
+    width: 48%;
+    border: black solid 3px;
+    float: left;
+}
+
+.map{
+    position: relative;
+    top: 100px;
+    left: 65px;
+}
